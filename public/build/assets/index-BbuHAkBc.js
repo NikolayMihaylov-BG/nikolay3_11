@@ -1,0 +1,1 @@
+$(function(){const a=$("table");a.DataTable({ajax:{headers:{"X-CSRF-TOKEN":$('meta[name="csrf-token"]').attr("content")},type:"POST",url:a.attr("data-table-route")},columns:[{data:"name"},{data:"actions",orderable:!1,searchable:!1}]})});
