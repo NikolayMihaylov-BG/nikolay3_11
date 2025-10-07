@@ -10,6 +10,7 @@ export default defineConfig({
                 'resources/css/app.css',
                 'resources/js/admin/main.js',
                 'resources/js/admin/invoice_parameters/index.js',
+                'resources/js/admin/invoice_parameters/invoice.js',
             ],
             refresh: true,
         }),

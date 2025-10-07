@@ -1,0 +1,1 @@
+import{S as o}from"./sweetalert2.esm.all-hB3mDLY4.js";$(function(){$(document).on("click",".delete-button",function(){const t=$(this);o.fire({title:"Изтриване на елемента?",showDenyButton:!0,confirmButtonText:"Да",denyButtonText:"Не",icon:"warning",confirmButtonColor:"#198754"}).then(n=>{n.isConfirmed&&t.closest("form").submit()})})});

@@ -1,4 +1,8 @@
 {
+  "_sweetalert2.esm.all-hB3mDLY4.js": {
+    "file": "assets/sweetalert2.esm.all-hB3mDLY4.js",
+    "name": "sweetalert2.esm.all"
+  },
   "node_modules/@fortawesome/fontawesome-free/webfonts/fa-brands-400.woff2": {
     "file": "assets/fa-brands-400-BfBXV7Mm.woff2",
     "src": "node_modules/@fortawesome/fontawesome-free/webfonts/fa-brands-400.woff2"
@@ -26,11 +30,23 @@
     "src": "resources/js/admin/invoice_parameters/index.js",
     "isEntry": true
   },
+  "resources/js/admin/invoice_parameters/invoice.js": {
+    "file": "assets/invoice-DsJhtcti.js",
+    "name": "invoice",
+    "src": "resources/js/admin/invoice_parameters/invoice.js",
+    "isEntry": true,
+    "imports": [
+      "_sweetalert2.esm.all-hB3mDLY4.js"
+    ]
+  },
   "resources/js/admin/main.js": {
-    "file": "assets/main-Bd14ac-1.js",
+    "file": "assets/main-D8sVV6fX.js",
     "name": "main",
     "src": "resources/js/admin/main.js",
-    "isEntry": true
+    "isEntry": true,
+    "imports": [
+      "_sweetalert2.esm.all-hB3mDLY4.js"
+    ]
   },
   "resources/js/app.js": {
     "file": "assets/app-CTTtnWdH.js",
