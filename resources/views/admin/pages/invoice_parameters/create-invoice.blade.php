@@ -24,6 +24,16 @@
                         <input type="text" class="form-control" id="discount" name="discount">
                     </div>
                 </div>
+                <div class="row g-3">
+                    <div class="col-md-5">
+                        <label for="1" class="form-label">Фактура Номер<span class="sr-only"></span></label>
+                        <select class="form-control" id="1" name="1">
+                            @foreach(\App\Enums\PaymentType::cases() as $paymentType)
+                                <option value="{{ $paymentType->value }}">{{ __("enum.payment_type_$paymentType->value") }}</option>
+                            @endforeach
+                        </select>
+                    </div>
+                </div>
             </div>
         </div>
 

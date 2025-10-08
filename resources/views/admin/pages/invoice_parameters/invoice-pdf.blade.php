@@ -197,20 +197,20 @@
 
 <table style="width: 100%;">
     <tr style="font-size: 15px;">
-        <td style="text-align: center;"><span>№</span> <span style="text-decoration: underline;" class="bold">1000018584</span></td>
-        <td style="text-align: center;"><span>Дата на издаване:</span> <span class="bold">{{ now()->format('d.m.Y') }}</span></td>
-        <td style="text-align: center;" class="bold">ОРИГИНАЛ</td>
+        <td style="text-align: center;"><span>№</span> <span style="text-decoration: underline;" class="bold">1000018586</span></td>
+        <td style="text-align: center;"><span>Дата на издаване:</span> <span class="bold">09.10.2025</span></td>
+        <td style="text-align: center;" class="bold">КОПИЕ</td>
     </tr>
 </table>
 
 <table style="margin-top: 20px; width: 100%;">
     <tr>
         <td style="border: 1px solid #000000; width: 100%; padding: 10px;">
-            <div>Получател: ВЕРОС 2011 ООД</div>
-            <div>Адрес: Благоевград, ул.Даме Груев 32 В</div>
-            <div>МОЛ: Валентин Кирилов</div>
-            <div>ИД по ДДС: BG201614416</div>
-            <div>ИН: 201614416</div>
+            <div>Получател: ТАЛАР ФУУДС ЕООД</div>
+            <div>Адрес: СОФИЯ УЛ СЛАВЯНСКА 5 ВХ 1 ЕТ 3</div>
+            <div>МОЛ: МЕХМЕТ РАФЕТ</div>
+            <div>ИД по ДДС: BG130146503</div>
+            <div>ИН: 130146503</div>
         </td>
         <td style="width: 20px;"></td>
         <td style="border: 1px solid #000000; width: 100%; padding: 10px;">
@@ -238,21 +238,21 @@
     <tbody>
         <tr>
             <td>1</td>
-            <td>37</td>
-            <td>СИРЕНЕ ДЯДОВАТА ФЕРМА</td>
-            <td>КГ</td>
-            <td>8.000</td>
-            <td><div>6.25 лв.</div><div>3.20 евро</div></td>
-            <td><div>50.00 лв.</div><div>25.56 евро</div></td>
+            <td>230</td>
+            <td>Кисело мляко 3,6%</td>
+            <td>кг.</td>
+            <td>1070.000</td>
+            <td><div>1.70 лв.</div><div>0.87 евро</div></td>
+            <td><div>1819.00 лв.</div><div>930.04 евро</div></td>
         </tr>
         <tr>
             <td>2</td>
-            <td>238</td>
-            <td>Кисело мляко 3.2% 0,500</td>
-            <td>БР</td>
-            <td>20.000</td>
-            <td><div>0.96 лв.</div><div>0.49 евро</div></td>
-            <td><div>19.17 лв.</div><div>9.80 евро</div></td>
+            <td>245</td>
+            <td>ЦЕДЕНО КИС МЛЯКО ПИРИНЕА</td>
+            <td>кг.</td>
+            <td>1050.000</td>
+            <td><div>3.15 лв.</div><div>1.61 евро</div></td>
+            <td><div>3307.50 лв.</div><div>1691.10 евро</div></td>
         </tr>
 
     <tr>
@@ -262,7 +262,7 @@
         <td class="last-child"></td>
         <td class="last-child"></td>
         <td class="last-child">Обща Сума: </td>
-        <td class="last-child"><div>69.17 лв.</div><div>35.37 евро</div></td>
+        <td class="last-child"><div>5126.50 лв.</div><div>2621.14 евро</div></td>
     </tr>
     </tbody>
 </table>
@@ -277,9 +277,9 @@
 {{--            @if($discount)--}}
 {{--                <div>Т.О. (намаление) {{ $discount }}%: {{ $discountAmount }} лв. / {{ display_price(calculateEuroPrice($discountAmount)) }} евро</div>--}}
 {{--            @endif--}}
-            <div><span class="bold">Данъчна основа:</span> 69.17 лв. / 35.37 евро</div>
-            <div>Ставка 20% ДДС: 13.83 лв. / 7.07 евро</div>
-            <div style="text-decoration: underline;"><span class="bold">Сума за плащане:</span> 83.00 лв. / 42.44 евро</div>
+            <div><span class="bold">Данъчна основа:</span> 5126.50 лв. / 2621.14 евро</div>
+            <div>Ставка 20% ДДС: 1025.30 лв. / 524.23 евро</div>
+            <div style="text-decoration: underline;"><span class="bold">Сума за плащане:</span> 6151.80 лв. / 3145.37 евро</div>
             <div>Сума за плащане, различна от данъчката основа и данъка: </div>
         </td>
     </tr>
@@ -294,16 +294,22 @@
     <tr>
         <td style="width: 100%;">
             <div>Място на сделката: <span class="bold">Дупница</span></div>
-            <div>Дата на данъчното събитие / дата на плащането: <span class="bold">{{ now()->format('d.m.Y') }}</span> </div>
+            <div>Дата на данъчното събитие / дата на плащането: <span class="bold">09.10.2025</span> </div>
             <div>Получил: </div>
         </td>
         <td style="width: 20px;"></td>
         <td style="width: 100%;">
-            <div>Банка: Уникредит Булбанк АД</div>
-            <div>BIC код на банката: UNCRBGSF</div>
-            <div>IBAN разпл. сметка: BG53UNCR70001522271526</div>
+{{--            <div>Банка: Уникредит Булбанк АД</div>--}}
+{{--            <div>BIC код на банката: UNCRBGSF</div>--}}
+{{--            <div>IBAN разпл. сметка: BG53UNCR70001522271526</div>--}}
+{{--            <div>Срок на плащане: </div>--}}
+{{--            <div>Начин на плащане: <span class="bold">в брой</span></div>--}}
+{{--            <div>Съставил: <span class="bold">Емилия Величкова</span></div>--}}
+            <div>Банка: Юробанк България АД</div>
+            <div>BIC код на банката: BPBIBGSF</div>
+            <div>IBAN разпл. сметка: BG15BPBI88981017634001</div>
             <div>Срок на плащане: </div>
-            <div>Начин на плащане: <span class="bold">в брой</span></div>
+            <div>Начин на плащане: <span class="bold">банка</span></div>
             <div>Съставил: <span class="bold">Емилия Величкова</span></div>
         </td>
     </tr>

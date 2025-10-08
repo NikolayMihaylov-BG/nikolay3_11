@@ -143,8 +143,8 @@ class InvoiceParametersController extends Controller
         $currencyTransformer = $numberToWords->getCurrencyTransformer('bg');
 //        $totalInWordsBGN = $currencyTransformer->toWords(number_format($totalPrice, 2, ''), 'BGN');
 //        $totalInWordsEUR = $currencyTransformer->toWords(number_format(display_price(calculateEuroPrice($vatPrice)) + display_price(calculateEuroPrice($price)), 2, ''), 'EUR');
-        $totalInWordsBGN = $currencyTransformer->toWords(8300, 'BGN');
-        $totalInWordsEUR = $currencyTransformer->toWords(4244, 'EUR');
+        $totalInWordsBGN = $currencyTransformer->toWords(615180, 'BGN');
+        $totalInWordsEUR = $currencyTransformer->toWords(314537, 'EUR');
 
         $data = [
             'invoiceParameter' => $invoiceParameter,
